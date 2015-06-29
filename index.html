@@ -16,71 +16,73 @@
   <body>
     <textarea id="source">
 class: slide-intro
-# VIM
-
-> Pourquoi est-ce que des gens codent encore avec un éditeur des années 80 ?
+# Syntastic
+## Syntax checkers & linters
+### [github.com/scrooloose/syntastic](https://github.com/scrooloose/syntastic)
 
 ---
 class: content-centered
 # Qui suis-je ?
 
-Timothée Carry, [@pixelastic][1]
+Timothée Carry, [@pixelastic](https://twitter.com/pixelastic)
 
-Consultant [@OctoTechnology][2], expert front-end
+Software Engineer [@Algolia](https://twitter.com/Algolia), software craftmanship
 
 Vim depuis 4 ans.
 
 ---
 class: content-centered
-# Vim, c'est quoi ?
+# Syntastic ?
 
-![Screencast][3]
+- Check la syntaxe
+- Affiche les erreurs
+- Utilise des linters externes
+- Automatique
+- Configurable
 ---
 class: content-centered
-# Éditeur
+# Demo
 
-- Outil le plus important
-- Agréable, productif
-- Vim == Emacs == IntelliJ ==  ...
-- Celui qui vous convient
-
----
-class: content-centered
-# Muscle Memory
-
-- Réduction des douleurs musculaires
-- Édition ≠ Création
-- Mode Normal
-- Pensée > clavier > code
+![Screencast](./img/screencast.gif)
 
 ---
 class: content-centered
-# Actions & Motions
+# Automatique
 
-- Vocabulaire et conjugaison
-- Modulable
-- Standard
-- Extensible
+- À la sauvegarde
+- Mode opt-in ou opt-out
+- Utilise les commandes du système
+- Parse l'output (ligne, colonne)
 
 ---
 class: content-centered
-# Extensible
+# Aide à l'écriture
 
-- Mapping de touches
-- Macros
-- VimScript
-- Ligne de commande
+- Professeur par dessus l'épaule
+- Apprentissage facile
+- Convention, bonnes pratiques
+- Deprecated, edge-cases
+
+---
+class: content-centered
+# Exemples
+
+- Ruby: [Rubocop](https://github.com/bbatsov/rubocop)
+- Bash: [ShellCheck](https://github.com/koalaman/shellcheck)
+- CSS: [Scsslint](https://github.com/brigade/scss-lint)
+- Javascript: [JSCS](https://github.com/jscs-dev/node-jscs),
+  [Eslint](https://github.com/eslint/eslint)
 - ...
 
 ---
 class: content-centered
-# Envie d'essayer ?
+# What next?
 
-- Lancez-vous
-- Commencez petit
-- `vimtutor`, [vim-adventures.com][4]
-- Trouvez un mentor ([Meetup :vim paris](http://www.meetup.com/Vim-Paris/))
+---
+class: content-centered
+# What next?
 
+## Fix automatique !
 ---
 class: slide-questions, content-centered
 # Questions ?
@@ -90,10 +92,7 @@ class: slide-questions, content-centered
 </div>
 
 
-[1]: https://twitter.com/pixelastic
-[2]: http://www.octo.com/
-[3]: ./img/screencast.gif
-[4]: http://vim-adventures.com/
+
     </textarea>
     <script src="./js/remark-latest.min.js"></script>
     <script>

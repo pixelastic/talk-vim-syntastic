@@ -8,8 +8,4 @@ rsync \
   --prune-empty-dirs \
   --compress \
   ./css ./fonts ./img ./js ./index.html \
-  pixelastic:/var/www/pixelastic.com/talks.pixelastic.com/dist/vim-humantalks
-
-
-
-
+  pixelastic:/var/www/pixelastic.com/talks.pixelastic.com/dist/vim-syntastic
